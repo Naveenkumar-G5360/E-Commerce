@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Product Data (Dynamically Loaded)
     const products = [
-        { id: 1, name: "Elegant Red Dress", price: 49.99, image: "dress/d4.jpg" },
-        { id: 2, name: "Stylish Black Gown", price: 69.99, image: "dress/d5.jpg" },
-        { id: 3, name: "Casual Summer Dress", price: 39.99, image: "dress/d6.jpg" },
-        { id: 4, name: "Party Wear Maxi", price: 59.99, image: "dress/d7.jpg" },
+        { id: 1, name: "Elegant Red Dress", price: 49.99, image: "d4.jpg" },
+        { id: 2, name: "Stylish Black Gown", price: 69.99, image: "d5.jpg" },
+        { id: 3, name: "Casual Summer Dress", price: 39.99, image: "d6.jpg" },
+        { id: 4, name: "Party Wear Maxi", price: 59.99, image: "d7.jpg" },
     ];
 
     const productGrid = document.getElementById("productGrid");
